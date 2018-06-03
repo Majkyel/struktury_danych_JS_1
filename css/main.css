@@ -1,31 +1,23 @@
 .container {
-    text-align: center;
-    padding: 10px;
-}
-
-.container .box {
+  text-align: center;
+  padding: 10px; }
+  .container .box {
     display: inline-block;
     border: 1px solid black;
     min-height: 150px;
     width: 200px;
-    opacity: 0.7;
-}
-
-.container .box header {
-    border-bottom: 1px solid black;
-    padding: 5px;
-}
+    opacity: .7; }
+    .container .box header {
+      border-bottom: 1px solid black;
+      padding: 5px; }
 
 .highlighted {
-    background-color: gray;
-}
+  background-color: gray; }
 
 .special-header header {
-    background-color: yellow;
-}
+  background-color: yellow; }
 
 .important {
-    opacity: 1;
-}
+  opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
