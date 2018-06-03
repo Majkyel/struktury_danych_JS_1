@@ -32,7 +32,9 @@ var data = [
 ];
 
 var boxes = document.querySelectorAll('.box');
-for (var i = 0; i < boxes.length; i++) {
+var boxesLenght = boxes.length;
+
+for (var i = 0; i < boxesLenght; i++) {
 
     // 2
     var boxHeader = boxes[i].querySelector('header');
