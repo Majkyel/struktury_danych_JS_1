@@ -34,7 +34,11 @@ var data = [
 var boxes = document.querySelectorAll('.box');
 var boxesLenght = boxes.length;
 
+
+
 for (var i = 0; i < boxesLenght; i++) {
+    
+    var CategoriesLength = data[i].categories.length;
 
     // 2
     var boxHeader = boxes[i].querySelector('header');
@@ -43,7 +47,7 @@ for (var i = 0; i < boxesLenght; i++) {
     var boxContent = boxes[i].querySelector('p');
     boxContent.innerHTML = data[i].content;
     // 4
-    for (var j = 0; j < data[i].categories.length; j++) {
+    for (var j = 0; j < CategoriesLength; j++) {
         boxes[i].classList.add(data[i].categories[j]);
     }
 }
